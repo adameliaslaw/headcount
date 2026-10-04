@@ -1,0 +1,63 @@
+# The law-firm vertical: a small or solo law practice, written against New Jersey.
+#
+# The third vertical, and the first built for a professional-services firm rather than a company
+# that makes or publishes something. The core covers the firm as a business — pricing, marketing,
+# the close, hiring — and says nothing about the practice itself: who the client is, what the
+# attorney signs, which clocks start at a death, and why nothing leaves the office without the
+# attorney reading it. Those are a department the core has no reason to carry, so this vertical
+# brings one (D39), the way education brought `education`.
+#
+# Jurisdiction is named, not assumed. Where a rule is New Jersey's it is cited as New Jersey's,
+# and the skill says so, because a vertical that silently generalizes one state's probate clock
+# is wrong in forty-nine others. Another state's practice extends the same skills with its own
+# context fragments rather than editing these.
+#
+# This file says what the vertical *is*. What it *adds* is discovered on disk: skills under
+# skills/<department>/<skill>/SKILL.md, and extensions to core skills under
+# context/<department>/<skill>.md. Nothing is listed twice.
+
+[vertical]
+slug = "law-firm"
+name = "headcount-law-firm"
+title = "Law firm"
+tagline = "An agent organization for a small or solo law practice — the full cross-industry core, plus the practice itself: intake, estate planning and administration, closings, and the attorney's review gate."
+description = "An agent organization for a small or solo law practice. Each department installs independently so only the relevant function loads; the counsel department holds the practice work and defers to the licensed attorney on every call that is theirs."
+keywords = ["law-firm", "legal-practice", "estate-planning", "probate", "new-jersey"]
+author = "Adam J. Elias"
+rationale = """
+A law practice is a professional-services business with a regulated product. The core covers the
+business — positioning, pricing, the monthly close, hiring, the tool estate — and is silent on the
+product, which is advice and instruments that a licensed attorney signs and a client relies on.
+Nothing in a cross-industry core can say when a will is validly executed, when a creditor's claim
+period ends, or why an engagement letter is not optional, and filing that under `legal-risk` would
+misroute it: that department reviews a company's own contracts and exposure, and its findings are
+written for a business, not a practice.
+
+This vertical brings a `counsel` department for the practice work and extends eleven core skills
+with what changes when the business is a law firm: client confidentiality is a professional duty
+rather than a privacy program, the trust account is reconciled monthly under court rule rather
+than at the close, attorney advertising is regulated speech, a referral fee to a non-lawyer is
+prohibited rather than merely risky, and no AI-assisted work product reaches a client without the
+attorney reading it.
+
+The rules named are New Jersey's, cited by statute, court rule and Rule of Professional Conduct,
+and the skills say so where the rule would differ elsewhere. The one thing every skill here holds
+in common is the review gate: the practice drafts, the attorney reads and releases, and nothing
+sends itself.
+"""
+
+[repo]
+url = "https://github.com/adameliaslaw/headcount-law-firm"
+upstream = "https://github.com/adameliaslaw/headcount"
+
+[[department]]
+name = "counsel"
+title = "Counsel"
+description = "The practice itself: client intake and engagement, estate plan design, execution and funding, estate administration, elder law, residential closings, and the attorney's review gate before anything is released."
+keywords = ["estate-planning", "probate", "trusts", "elder-law", "closings", "intake", "attorney-review"]
+category = "counsel"
+
+[emit]
+# Every core department ships. A law firm has a brand, a pipeline, a close and a tool estate like
+# any other company, and D8's rule against removing a surface because it looks unused applies.
+exclude_departments = []

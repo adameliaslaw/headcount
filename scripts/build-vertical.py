@@ -362,16 +362,19 @@ def emit(slug, config, out):
     surfaces = open(os.path.join(ROOT, "docs", "AGENT-SURFACES.md"), encoding="utf-8").read()
     shutil.copytree(os.path.join(ROOT, ".claude"), os.path.join(out, ".claude"))
     for entry in added:
-        name = entry["name"]
+        # `dept`, not `name`: `name` is the vertical's own name, and the README below is written
+        # under it. Reusing it here renamed every emitted repository that brings a department
+        # after that department — `# education` where `# headcount-education` belonged.
+        dept = entry["name"]
         # A roster row, a surface block and a charter, in the same change — the rule the map states
         # for a new department, applied by the generator because nobody is there to apply it by hand.
         surfaces = surfaces.replace(
             "verticals            builder    installed  proposes\n",
-            f"{name:<20} builder    installed  autonomous\n", 1)
+            f"{dept:<20} builder    installed  autonomous\n", 1)
         surfaces = surfaces.replace(
             "```surface:repo-meta",
-            f"```surface:{name}\nplugins/{name}/**\n```\n\n```surface:repo-meta", 1)
-        with open(os.path.join(out, ".claude", "agents", f"{name}.md"), "w",
+            f"```surface:{dept}\nplugins/{dept}/**\n```\n\n```surface:repo-meta", 1)
+        with open(os.path.join(out, ".claude", "agents", f"{dept}.md"), "w",
                   encoding="utf-8") as handle:
             handle.write(charter(entry, title))
     # `verticals` and `sources` own nothing in an emitted repository — their inputs stay upstream —

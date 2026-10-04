@@ -51,6 +51,7 @@ recorded rather than being deleted.
 | D37 | Authoritative sources as a catalog of references | ✅ Resolved |
 | D38 | Running in ChatGPT as well as Claude Code | ✅ Resolved |
 | D39 | A vertical that brings its own department | ✅ Resolved |
+| D40 | A law-firm vertical, built against one jurisdiction | ✅ Resolved |
 
 ---
 
@@ -1390,3 +1391,70 @@ emitter now resolve against the core and every vertical.
 **The emitted map drops the `verticals` and `sources` rows.** Their inputs stay upstream, so
 downstream those rows would claim paths that are not there — a map that governs nothing, which is
 the condition the authority column was added to eliminate.
+
+---
+
+## D40. A law-firm vertical, built against one jurisdiction — ✅ Resolved
+
+The third vertical is a professional-services practice rather than a company that makes or
+publishes something, and it raised two questions the first two did not. A law practice's product is
+advice and instruments that a licensed attorney signs, governed by a state's statutes, court rules
+and Rules of Professional Conduct; and the state matters, because a probate clock or an execution
+formality generalized silently from one jurisdiction is wrong in the others.
+
+**Where the practice work lives.**
+
+- **(a) A `counsel` department brought by the vertical, holding the practice work, with the
+  business-side changes as context fragments on the core.** ← **chosen**
+- (b) File the practice skills under `legal-risk`. That department reviews a company's own
+  contracts and exposure; its skills open with "not legal advice" and its findings are written for
+  a business. A request about a will's execution loading `contract-review` is the silent collision
+  `technology:skill-authoring` names, and reviewer-class semantics are wrong for a producing
+  practice.
+- (c) Add the practice skills to the core, excluded from every other vertical. Puts a department
+  no other industry wants into the default install — the inversion D39 already rejected.
+
+**Resolution: (a)**, by the same reasoning as education in D39. The practice is not a thinner
+version of anything a cross-industry core has. Eleven core skills are extended rather than
+duplicated — confidentiality as a professional duty on `privacy-and-data-protection`, the
+court-rule trust reconciliation on `financial-reporting-and-close`, attorney advertising on the
+chief marketing officer, the prohibition on paying for referrals on `referral-programs`, the review
+gate on `ai-workflow-architect`, and so on — so a core improvement still reaches the practice on the
+next emit.
+
+**Jurisdiction.**
+
+- **(a) Write against one jurisdiction, name it on every rule, and say where the rule would
+  differ.** ← **chosen**
+- (b) Write jurisdiction-neutral practice skills. Every useful statement in this field — when a
+  will is validly executed, when a creditor's period ends, who may witness an advance directive —
+  is jurisdiction-specific, and a neutral skill is either hedged past usefulness or wrong
+  somewhere. D7's rule that a vertical is built for own use first, where its quality can be
+  judged, points the same way: the operating practice behind this vertical is in New Jersey.
+- (c) Make jurisdiction a generator variable. Nothing in the content varies by a parameter; it
+  varies by the whole body of law. A second state's practice extends these skills with its own
+  context fragments, or brings its own, which is what the fragment mechanism exists for.
+
+**Resolution: (a).** Every statute, rule and figure is cited by number and was verified against
+the publisher — the Legislature's own statute archive, the Judiciary's pages, the Division of
+Taxation, the IRS, the CFPB and the House's US Code — on the date recorded in `sources/law-firm.toml`.
+The skills say so where the rule is New Jersey's and would differ elsewhere.
+
+**One rule every skill in the vertical holds:** the practice drafts, the attorney reads the exact
+revision and releases it, and nothing — no schedule, agent, template or integration — sends on
+the firm's behalf. The New Jersey Supreme Court's 2026 model AI policy and ABA Formal Opinion 512
+state the same rule for AI-assisted work, which is why `counsel:attorney-review-and-release` is a
+skill rather than a sentence.
+
+**Two things worth recording.**
+
+The vertical's `[repo]` fields point at the fork this was built in. If it is contributed upstream,
+those two lines change and nothing else does; the content carries no reference to either
+repository.
+
+A mortgage brokerage is a separate regulated business that the operating practice behind this
+vertical also runs. It is deliberately not here: it is not a law-firm function, its own
+authorities (the SAFE Act and state licensing, TILA-RESPA, loan originator compensation) are a
+department's worth, and the only place the two meet — an attorney taking a second role in a
+client's closing — is covered in `counsel:residential-real-estate-closings` under RPC 1.7 and
+1.8(a). A mortgage vertical, or a department brought by one, is a later decision.
