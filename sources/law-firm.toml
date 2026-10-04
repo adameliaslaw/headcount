@@ -1,0 +1,337 @@
+# Primary law, court rules, ethics guidance and tax authority for the law-firm vertical. New Jersey
+# and federal, jurisdiction-tagged.
+#
+# Statutes, court rules and regulations are government edicts and free to quote; the agency pages
+# that explain them — the Division of Taxation's guides, the Judiciary's notices — are state works
+# with no blanket license, so they are classed as free to read and cited rather than reproduced.
+# Federal works (the IRS, the CFPB, the US Code as published by the House) are public domain.
+#
+# Reachability note. njcourts.gov and americanbar.org refuse automated requests from some networks
+# with a 403. That is a bot filter rather than a dead link, and `check-sources.py --online` reports
+# it as a warning for exactly that reason; every URL below was opened first-hand on the checked
+# date. The New Jersey Legislature publishes the full statute text as a downloadable archive,
+# recorded as the `data` form of the statutes entry, which is how the section texts cited in this
+# vertical were verified.
+
+[[source]]
+id = "nj-statutes"
+title = "New Jersey Statutes — current text"
+publisher = "New Jersey Legislature, Office of Legislative Services"
+url = "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm"
+license = "public-domain"
+jurisdiction = "NJ"
+authoritative_for = "The current text of every New Jersey statute cited here — Title 3B (wills, probate, intestacy, fiduciary commissions, refunding bonds, the Uniform Trust Code), Title 46 (powers of attorney, the realty transfer fee and the Graduated Percent Fee), Title 26 (advance directives), Title 54 (the transfer inheritance tax and the bulk sale notice) and Title 52 (remote notarial acts). Read the section; a summary on a firm's website is not the law."
+data = "https://pub.njleg.state.nj.us/statutes/"
+skills = ["counsel:managing-attorney", "counsel:client-intake-and-engagement", "counsel:estate-plan-design", "counsel:will-and-trust-execution", "counsel:trust-funding", "counsel:estate-administration", "counsel:elder-law-and-medicaid-planning", "counsel:residential-real-estate-closings", "counsel:attorney-review-and-release"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-rules-of-court"
+title = "New Jersey Rules of Court, including the Rules of Professional Conduct"
+publisher = "New Jersey Judiciary"
+url = "https://www.njcourts.gov/attorneys/rules-of-court"
+license = "public-domain"
+jurisdiction = "NJ"
+authoritative_for = "The court rules that set the practice's clocks and duties — R. 1:3-1 (computing time), R. 1:21-6 (attorney trust and business accounts and their records), R. 1:21-7 (contingent fees), R. 4:80-6 (notice of probate and proof of mailing), R. 4:85-1 and 4:85-2 (the will-contest window) — and the Rules of Professional Conduct, which are an appendix to Part I: RPC 1.2, 1.4, 1.5, 1.6, 1.7, 1.8, 1.14, 1.15, 5.1, 5.3, 5.4, 7.1 through 7.4. Amended annually by the Supreme Court's omnibus order, ordinarily effective September 1."
+skills = ["counsel:managing-attorney", "counsel:client-intake-and-engagement", "counsel:estate-administration", "counsel:residential-real-estate-closings", "counsel:attorney-review-and-release", "counsel:elder-law-and-medicaid-planning"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-court-holidays"
+title = "New Jersey Courts — court holidays and recesses"
+publisher = "New Jersey Judiciary"
+url = "https://www.njcourts.gov/court-holidays-and-recesses-2025-2026"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "Which days are legal holidays for computing a court-rule period under R. 1:3-1. A deadline engine pins its holiday calendar to the Supreme Court's orders, by court year, and recomputes when a new order issues."
+skills = ["counsel:estate-administration"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-oae-random-audit"
+title = "Office of Attorney Ethics — Random Audit Program and summary of R. 1:21-6"
+publisher = "New Jersey Judiciary, Office of Attorney Ethics"
+url = "https://www.njcourts.gov/attorneys/attorney-ethics-and-discipline/random-audit-program"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The Judiciary's own plain statement of the trust-account rules: two accounts in an approved New Jersey institution, named payees and no cash, attorney-only signatures, monthly reconciliation with the records kept seven years, fiduciary funds held separately, and the consequence of knowing misuse."
+skills = ["counsel:managing-attorney"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-oae-recordkeeping-outline"
+title = "Outline of Recordkeeping Requirements under RPC 1.15 and R. 1:21-6"
+publisher = "New Jersey Judiciary, Office of Attorney Ethics"
+url = "https://www.njcourts.gov/sites/default/files/attorneys/office-of-attorney-ethics/oaeoutline.pdf"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The records a practice must keep for its trust and business accounts, with the Office's worked examples of ledgers, journals and the three-way reconciliation."
+skills = ["counsel:managing-attorney"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-ai-preliminary-guidelines"
+title = "Preliminary Guidelines on the Use of Artificial Intelligence by New Jersey Lawyers"
+publisher = "Supreme Court of New Jersey, Committee on Artificial Intelligence and the Courts"
+url = "https://www.njcourts.gov/notices/notice-legal-practice-preliminary-guidelines-use-of-artificial-intelligence-new-jersey"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "How the Rules of Professional Conduct apply to a lawyer's use of AI (issued January 25, 2024, effective immediately): the duty to verify AI output, confidentiality before any client information enters a tool, candor, and supervision of staff and tools under RPC 5.1 to 5.3. The guidelines impose no new duty; they say which existing ones AI engages."
+skills = ["counsel:attorney-review-and-release", "counsel:managing-attorney"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-ai-firm-policy-template"
+title = "Notice — Responsible Use of Artificial Intelligence and Related Technologies: Benefits of AI Policies, Sample Starter Template"
+publisher = "Supreme Court of New Jersey"
+url = "https://www.njcourts.gov/notices/notice-responsible-use-of-artificial-intelligence-ai-and-related-technologies-benefits-of"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The Supreme Court's model firm policy (March 2026): choose one confidentiality rule for AI tools, require lawyer review of every AI-assisted work product before it reaches a client, opposing counsel or the court, verify every citation against an official source or remove it, and check each tool's sharing, retention and training settings before use, including AI features built into everyday platforms."
+skills = ["counsel:attorney-review-and-release", "counsel:managing-attorney"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-caa-opinion-49"
+title = "Committee on Attorney Advertising Opinion 49 — Use of Client Endorsements and Testimonials in Attorney Advertising"
+publisher = "Supreme Court of New Jersey, Committee on Attorney Advertising"
+url = "https://www.njcourts.gov/notices/committee-attorney-advertising-opinion-49-use-of-client-endorsements-and-testimonials"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The current conditions under which a New Jersey lawyer may use client endorsements and testimonials (issued September 30, 2025, superseding Opinions 15 and 33), and the Committee's reading of RPC 7.1(a)(2) and (a)(3) on unjustified expectations and comparative claims."
+skills = ["counsel:managing-attorney"]
+checked = "2026-10-04"
+
+[[source]]
+id = "aba-formal-opinion-512"
+title = "ABA Formal Opinion 512 — Generative Artificial Intelligence Tools"
+publisher = "American Bar Association, Standing Committee on Ethics and Professional Responsibility"
+url = "https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf"
+license = "free-to-read"
+jurisdiction = "US"
+authoritative_for = "The national ethics framework for a lawyer's use of generative AI (July 29, 2024): competence, confidentiality and informed consent before client information enters a self-learning tool, communication with the client, candor, supervision, and what may reasonably be charged for AI-assisted work. Persuasive in New Jersey; the Supreme Court's own guidance governs."
+skills = ["counsel:attorney-review-and-release"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-inheritance-estate-tax"
+title = "New Jersey Division of Taxation — Inheritance and Estate Tax"
+publisher = "New Jersey Division of Taxation"
+url = "https://www.nj.gov/treasury/taxation/inheritance-estate/inheritance.shtml"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The Division's statement of the transfer inheritance tax, resident and non-resident, and the end of the New Jersey estate tax for deaths on or after January 1, 2018, with links to its guides, the compromise-tax guide and the actuarial tables."
+skills = ["counsel:estate-plan-design", "counsel:estate-administration"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-inheritance-tax-filing"
+title = "New Jersey Division of Taxation — Inheritance Tax filing requirements"
+publisher = "New Jersey Division of Taxation"
+url = "https://www.nj.gov/treasury/taxation/inheritance-estate/inheritance-taxfilerequirements.shtml"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "When a return is required by beneficiary class, that the return and payment are due eight months after death, and that extensions are granted to file and never to pay."
+skills = ["counsel:estate-administration"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-inheritance-tax-waivers"
+title = "New Jersey Division of Taxation — Tax waiver requirements"
+publisher = "New Jersey Division of Taxation"
+url = "https://www.nj.gov/treasury/taxation/inheritance-estate/estatetax.shtml"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "Which New Jersey assets cannot be transferred without a tax waiver, who may use the self-executing Forms L-8 and L-9, and when the Division's Form 0-1 waiver is required instead."
+skills = ["counsel:estate-administration", "counsel:trust-funding"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-inheritance-beneficiary-classes"
+title = "New Jersey Transfer Inheritance Tax — beneficiary classes"
+publisher = "New Jersey Division of Taxation"
+url = "https://www.nj.gov/treasury/taxation/pdf/other_forms/inheritance/transferinheritanceclasses.pdf"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The Division's one-page table of who falls in Class A, C, D and E, including stepchildren, mutually acknowledged children, civil union and domestic partners and their effective dates."
+skills = ["counsel:estate-plan-design", "counsel:estate-administration"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-executor-guide"
+title = "Executor's Guide to Inheritance and Estate Taxes"
+publisher = "New Jersey Division of Taxation"
+url = "https://www.nj.gov/treasury/taxation/documents/pdf/guides/General-%20Guide-to-Being-an-Executor.pdf"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The Division's walkthrough for a fiduciary: which return to file, the waivers, the timing, and the Division's own worked examples. Useful for the plain-language letter to an executor; the statute governs where they differ."
+skills = ["counsel:estate-administration"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-realty-transfer-fee"
+title = "New Jersey Division of Taxation — Realty Transfer Fee"
+publisher = "New Jersey Division of Taxation"
+url = "https://www.nj.gov/treasury/taxation/realty.shtml"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The current realty transfer fee schedules, the partial exemptions for senior citizens, blind or disabled persons and low-and-moderate-income housing, and the Graduated Percent Fee on transfers over $1,000,000 with the affidavit forms each requires."
+skills = ["counsel:residential-real-estate-closings", "counsel:trust-funding"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-graduated-percent-fee-notice"
+title = "Amendments to the Graduated Percent Fee on realty transfers over $1 million"
+publisher = "New Jersey Division of Taxation"
+url = "https://www.nj.gov/treasury/taxation/pdf/lpt/GraduatedPercentFeeNotice.pdf"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The Division's notice implementing P.L. 2025, c. 69: for deeds on or after July 10, 2025 the former 1% buyer-paid fee is a seller-paid fee of 1% to 3.5% of the entire consideration, with the refund procedure for contracts signed before the effective date."
+skills = ["counsel:residential-real-estate-closings"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-rtf-faqs"
+title = "Realty Transfer Fee — frequently asked questions"
+publisher = "New Jersey Division of Taxation"
+url = "https://www.nj.gov/treasury/taxation/lpt/rtffaqs.shtml"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "How the Division treats the cases that recur in a practice: a deed into a trust, a quitclaim deed, a parent-to-child transfer with partial consideration, a deed between related entities, and the senior-citizen partial exemption on mixed parcels."
+skills = ["counsel:trust-funding", "counsel:residential-real-estate-closings"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-bulk-sales"
+title = "New Jersey Division of Taxation — Bulk Sales"
+publisher = "New Jersey Division of Taxation"
+url = "https://www.nj.gov/treasury/taxation/bulk_sale_act.shtml"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The bulk sale notification (Form C-9600) a purchaser files at least ten days before closing under N.J.S.A. 54:50-38, and the Division's reading of the simple-dwelling-house exemption for sales by an individual, estate or trust."
+skills = ["counsel:residential-real-estate-closings"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-nonresident-sellers"
+title = "New Jersey Division of Taxation — Nonresident sellers of real property"
+publisher = "New Jersey Division of Taxation"
+url = "https://www.nj.gov/treasury/taxation/individuals/nonsellers-property.shtml"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The GIT/REP forms a seller completes at closing, the estimated-tax payment a nonresident seller makes, and the exemptions a resident, an estate or a trust may claim."
+skills = ["counsel:residential-real-estate-closings", "counsel:estate-administration"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-notary-law"
+title = "New Jersey Division of Revenue — Notary Public law, including remote and electronic notarization"
+publisher = "New Jersey Department of the Treasury, Division of Revenue and Enterprise Services"
+url = "https://www.nj.gov/treasury/revenue/notary-public-law.shtml"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The State's implementation of P.L. 2021, c. 179 — which notarial acts may be performed remotely, on what platforms, and the exclusion of records governed by the law of wills and codicils (N.J.S.A. 52:7-10.10)."
+data = "https://pub.njleg.gov/bills/2020/PL21/179_.HTM"
+skills = ["counsel:will-and-trust-execution"]
+checked = "2026-10-04"
+
+[[source]]
+id = "njac-11-5-6-2-attorney-review"
+title = "N.J.A.C. 11:5-6.2 — Contracts of sale, leases and listing agreements (the attorney review clause)"
+publisher = "New Jersey Real Estate Commission (text as republished by the Legal Information Institute)"
+url = "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-11-5-6-2"
+license = "public-domain"
+jurisdiction = "NJ"
+authoritative_for = "The attorney review clause a real estate licensee must include in a contract for a one-to-four-family home or a vacant one-family lot: three business days from delivery, counted excluding Saturdays, Sundays and legal holidays, during which either party's attorney may disapprove the contract. The Commission's own site links to a commercial republication of Title 11:5; this is the readable copy of the same text."
+skills = ["counsel:residential-real-estate-closings"]
+checked = "2026-10-04"
+
+[[source]]
+id = "irs-estate-gift-whats-new"
+title = "What's new — Estate and gift tax"
+publisher = "Internal Revenue Service"
+url = "https://www.irs.gov/businesses/small-businesses-self-employed/whats-new-estate-and-gift-tax"
+license = "public-domain-usgov"
+jurisdiction = "US"
+authoritative_for = "The basic exclusion amount by year of death and the annual gift exclusion by year, as the IRS publishes them ($15,000,000 and $19,000 for 2026). Check here before any figure goes in a letter."
+data = "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+skills = ["counsel:estate-plan-design", "counsel:estate-administration"]
+checked = "2026-10-04"
+
+[[source]]
+id = "irs-form-706-instructions"
+title = "Instructions for Form 706, United States Estate (and Generation-Skipping Transfer) Tax Return"
+publisher = "Internal Revenue Service"
+url = "https://www.irs.gov/instructions/i706"
+license = "public-domain-usgov"
+jurisdiction = "US"
+authoritative_for = "Who must file, the nine-month due date and the Form 4768 extension, and the portability election and its timing — the reason a 706 is filed when no tax is due."
+data = "https://www.irs.gov/forms-pubs/about-form-4768"
+skills = ["counsel:estate-administration", "counsel:estate-plan-design"]
+checked = "2026-10-04"
+
+[[source]]
+id = "usc-26-6075"
+title = "26 U.S.C. § 6075 — Time for filing estate and gift tax returns"
+publisher = "Office of the Law Revision Counsel, US House of Representatives"
+url = "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section6075&num=0&edition=prelim"
+license = "public-domain-usgov"
+jurisdiction = "US"
+authoritative_for = "The statutory nine-month filing period for the federal estate tax return, from which the practice computes the Form 706 date."
+skills = ["counsel:estate-administration"]
+checked = "2026-10-04"
+
+[[source]]
+id = "usc-12-1701j-3"
+title = "12 U.S.C. § 1701j-3 — Preemption of due-on-sale prohibitions (Garn–St Germain)"
+publisher = "Office of the Law Revision Counsel, US House of Representatives"
+url = "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title12-section1701j-3&num=0&edition=prelim"
+license = "public-domain-usgov"
+jurisdiction = "US"
+authoritative_for = "Subsection (d)(8): a lender may not exercise a due-on-sale clause on a transfer into an inter vivos trust in which the borrower is and remains a beneficiary and which does not transfer rights of occupancy — the authority for deeding a mortgaged home into a revocable trust."
+skills = ["counsel:trust-funding"]
+checked = "2026-10-04"
+
+[[source]]
+id = "usc-42-1396p"
+title = "42 U.S.C. § 1396p — Liens, adjustments and recoveries, and transfers of assets (Medicaid)"
+publisher = "Office of the Law Revision Counsel, US House of Representatives"
+url = "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section1396p&num=0&edition=prelim"
+license = "public-domain-usgov"
+jurisdiction = "US"
+authoritative_for = "The sixty-month look-back, the transfer penalty and how it is computed, the exceptions for transfers of the home to a spouse, a child under 21 or disabled, a sibling with an equity interest and a caregiver child, the treatment of trusts, and estate recovery — the federal floor every state's Medicaid program builds on."
+skills = ["counsel:elder-law-and-medicaid-planning"]
+checked = "2026-10-04"
+
+[[source]]
+id = "nj-dmahs"
+title = "New Jersey Division of Medical Assistance and Health Services"
+publisher = "New Jersey Department of Human Services"
+url = "https://www.nj.gov/humanservices/dmahs/home/"
+license = "free-to-read"
+jurisdiction = "NJ"
+authoritative_for = "The State Medicaid agency's current figures and communications: the penalty divisor, the community spouse resource and income allowances, the home equity limit, and the program's eligibility rules as New Jersey applies them. Take every number from the current communication, never from memory."
+skills = ["counsel:elder-law-and-medicaid-planning"]
+checked = "2026-10-04"
+
+[[source]]
+id = "cfpb-reg-z-1026-19"
+title = "12 CFR § 1026.19 — Certain mortgage and variable-rate transactions (TILA-RESPA integrated disclosures)"
+publisher = "Consumer Financial Protection Bureau"
+url = "https://www.consumerfinance.gov/rules-policy/regulations/1026/19/"
+license = "public-domain-usgov"
+jurisdiction = "US"
+authoritative_for = "The Loan Estimate within three business days of application and the Closing Disclosure received three business days before consummation, with the changes that restart the waiting period — the lender's clock that a closing date is built around."
+skills = ["counsel:residential-real-estate-closings"]
+checked = "2026-10-04"
+
+[[source]]
+id = "cfpb-reg-x-1024-14"
+title = "12 CFR § 1024.14 — Prohibition against kickbacks and unearned fees (RESPA Section 8)"
+publisher = "Consumer Financial Protection Bureau"
+url = "https://www.consumerfinance.gov/rules-policy/regulations/1024/14/"
+license = "public-domain-usgov"
+jurisdiction = "US"
+authoritative_for = "Why no fee or thing of value may pass for the referral of settlement-service business, including between an attorney's own businesses, and what an affiliated-business arrangement must disclose."
+skills = ["counsel:residential-real-estate-closings"]
+checked = "2026-10-04"

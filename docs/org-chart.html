@@ -430,7 +430,7 @@ document.getElementById('figures').innerHTML = [
   [DEPTS.length, 'departments'],
   [totalSkills, 'skills'],
   [reviewers.length, 'reviewer-class'],
-  [184, 'cited sources'],
+  [213, 'cited sources'],
 ].map(([n, l]) => `<div class="figure"><b>${n}</b><span>${l}</span></div>`).join('');
 
 const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
