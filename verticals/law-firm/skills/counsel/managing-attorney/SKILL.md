@@ -47,7 +47,8 @@ defined: the adult child who called about mother's estate plan, the couple whose
 after the first meeting, the executor who assumed the firm also represented the beneficiaries.
 
 Before any work, name the client in writing, say who is not the client, and put the fee basis in
-writing — New Jersey RPC 1.5(b) requires that of any client the firm has not regularly represented.
+writing — New Jersey RPC 1.5(b) requires it for every client except a previous client taken on
+again on the same fee structure, and requires any change in the basis or rate in writing too.
 `counsel:client-intake-and-engagement` holds the method; the managing attorney holds the decision
 when it is unclear.
 
@@ -80,8 +81,9 @@ takes the earlier reading and a date the firm waits for takes the later one.
 Staff and agents may gather facts, prepare drafts, assemble documents from the attorney's
 instructions, calendar dates and communicate logistics. They may not give legal advice, set or
 negotiate a fee, decide who the client is, sign for the attorney, or release work product. New
-Jersey RPC 5.3 makes the attorney responsible for a non-lawyer's conduct as if it were the
-attorney's own, and the 2024 Preliminary Guidelines on AI apply that supervision to tools.
+Jersey RPC 5.3 makes the attorney answerable for a non-lawyer's conduct the attorney orders or
+ratifies, knows of and fails to remedy, or failed to investigate, and the 2024 Preliminary
+Guidelines on AI apply that supervision to tools.
 
 Write the line down and give it to every person and every agent that works in the practice. A
 delegation that lives in the attorney's head is reconstructed differently by each new assistant.

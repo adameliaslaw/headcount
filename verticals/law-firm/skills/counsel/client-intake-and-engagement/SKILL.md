@@ -68,9 +68,10 @@ act in their own interest.
 
 ## Put the fee basis in writing — it is a rule, not a courtesy
 
-New Jersey RPC 1.5(b) requires the basis or rate of the fee to be communicated in writing to a
-client the firm has not regularly represented, before or within a reasonable time after the
-representation starts. A fee that was only discussed is a fee the firm may not be able to collect.
+New Jersey RPC 1.5(b) requires the basis or rate of the fee to be communicated in writing, before
+or within a reasonable time after the representation starts, and any later change in writing too;
+the only exception is a previous client taken on again on the same fee structure. A fee that was
+only discussed is a fee the firm may not be able to collect.
 
 The engagement letter carries:
 

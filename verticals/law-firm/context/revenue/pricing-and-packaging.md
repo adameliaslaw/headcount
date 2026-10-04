@@ -19,11 +19,13 @@ constraints:
   conversation, not a paywall.
 - **Some fees are prohibited.** A contingent fee is barred in the matters RPC 1.5(d) names and is
   governed by R. 1:21-7 where it is allowed. A fee may not be shared with a non-lawyer (RPC 5.4),
-  and a division of fees between lawyers in different firms must follow RPC 1.5(e) with the
-  client's written consent. Discounts in exchange for a referral are the thing `revenue:referral-programs`
+  and a division of fees between lawyers in different firms must follow RPC 1.5(e): in proportion
+  to the services, or on joint responsibility by written agreement with the client, with the client
+  notified and consenting and the total fee reasonable. Discounts in exchange for a referral are the thing `revenue:referral-programs`
   warns about, and in a practice they are also an ethics violation.
-- **Changing a price mid-matter is a new agreement.** The client agreed to a basis; a different
-  basis needs their informed consent in writing, not a notice. Grandfathering is not a courtesy
+- **Changing a price mid-matter is a new agreement.** The client agreed to a basis; RPC 1.5(b)
+  requires any change in the basis or rate to be communicated in writing, and a change the client
+  has not agreed to is not a change. Grandfathering is not a courtesy
   here; it is the rule.
 - **Advance fees are held where the agreement says.** A retainer the client expects to be held
   until earned belongs in the trust account; say in the letter which it is.

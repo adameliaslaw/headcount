@@ -31,9 +31,11 @@ url = "https://www.fedramp.gov/rev5/documents-templates/"
 license = "public-domain-usgov"
 jurisdiction = "US"
 authoritative_for = "Which SP 800-53 controls apply at low, moderate and high impact for a cloud service selling to the US federal government, and the evidence each requires."
-data = "https://github.com/GSA/fedramp-automation"
+# The machine-readable form used to be the GSA/fedramp-automation repository. It answered 404 on
+# 2026-10-04 (the weekly link check's one real failure), and no publisher-hosted successor was
+# found; the community mirrors are not GSA. The documents page above remains the authority.
 skills = ["security:chief-information-security-officer", "security:security-architecture-review", "legal-risk:regulatory-compliance"]
-checked = "2026-09-16"
+checked = "2026-10-04"
 
 [[source]]
 id = "cisa-kev"

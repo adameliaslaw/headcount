@@ -20,8 +20,6 @@ GSA · US · public domain (US government) — quote freely
 
 <https://www.fedramp.gov/rev5/documents-templates/>
 
-Machine-readable: <https://github.com/GSA/fedramp-automation>
-
 **Authoritative for:** Which SP 800-53 controls apply at low, moderate and high impact for a cloud service selling to the US federal government, and the evidence each requires.
 
 ## ISO/IEC 27001 — Information security management systems
