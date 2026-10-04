@@ -2,9 +2,10 @@
 
 A law firm's organization has a line through it that the core's org design does not draw: what a
 licensed attorney must do personally, and what everyone else may do under supervision. New Jersey
-RPC 5.3 makes the attorney responsible for the conduct of non-lawyer staff as if it were the
-attorney's own, and the unauthorized practice of law is a statutory offense for the staff member
-and an ethics matter for the firm.
+RPC 5.3 requires reasonable measures to keep non-lawyer conduct compatible with the lawyer's own
+obligations, and makes the attorney answerable for conduct the attorney orders or ratifies, knows
+of and fails to remedy, or failed to investigate; the unauthorized practice of law is a statutory
+offense for the staff member and an ethics matter for the firm.
 
 The design consequences:
 
