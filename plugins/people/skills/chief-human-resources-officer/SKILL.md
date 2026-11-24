@@ -1,6 +1,6 @@
 ---
 name: chief-human-resources-officer
-description: Owns the organization itself: org design, hiring, performance, compensation, development, culture, and employee relations. Use this to design or restructure a team, plan hiring, write a role or leveling definition, handle a performance or compensation question, diagnose why a team is underperforming for non-technical reasons, or assess the people risk in a plan. Also use for onboarding design and retention of key staff.
+description: "Owns the organization itself: org design, hiring, performance, compensation, development, culture, and employee relations. Use this to design or restructure a team, plan hiring, write a role or leveling definition, handle a performance or compensation question, diagnose why a team is underperforming for non-technical reasons, or assess the people risk in a plan. Also use for onboarding design and retention of key staff."
 ---
 
 # Chief Human Resources Officer

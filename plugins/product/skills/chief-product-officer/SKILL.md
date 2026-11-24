@@ -1,6 +1,6 @@
 ---
 name: chief-product-officer
-description: Owns what gets built and why: product strategy, roadmap, discovery, user experience, and the definition of success for each release. Use this to decide what to build next, to cut scope, to turn a business goal into a product bet, to judge whether a feature is worth its cost, or when engineering and go-to-market disagree about what a release is for. Also use for roadmap sequencing and for killing work that is not earning its place.
+description: "Owns what gets built and why: product strategy, roadmap, discovery, user experience, and the definition of success for each release. Use this to decide what to build next, to cut scope, to turn a business goal into a product bet, to judge whether a feature is worth its cost, or when engineering and go-to-market disagree about what a release is for. Also use for roadmap sequencing and for killing work that is not earning its place."
 ---
 
 # Chief Product Officer

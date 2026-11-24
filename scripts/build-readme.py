@@ -27,6 +27,13 @@ META = {
 REVIEWER = {"security", "legal-risk"}
 
 
+def unquote(value):
+    """A description holding ": " must be quoted to be valid YAML; the text is what is inside."""
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+        return value[1:-1]
+    return value
+
+
 def load_departments():
     """Departments come from disk, not from a list someone has to remember to update. A department
     present on disk but missing from META is a hard error rather than a silent omission — the same
@@ -68,7 +75,7 @@ SOURCE_COUNT, SOURCE_SKILLS, SOURCE_QUOTABLE = _catalog_counts()
 def summarize(path, limit=165):
     text = open(path, encoding="utf-8").read()
     front = re.match(r"^---\s*\n(.*?)\n---", text, re.S).group(1)
-    desc = re.search(r"^description:\s*(.*)$", front, re.M).group(1).strip()
+    desc = unquote(re.search(r"^description:\s*(.*)$", front, re.M).group(1).strip())
     cut = re.split(r"(?:\.\s+)(?:Also )?[Uu]se (?:this|it)\b", desc)[0]
     if len(cut) < 40:
         cut = desc

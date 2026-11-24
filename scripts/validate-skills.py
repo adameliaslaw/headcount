@@ -20,7 +20,10 @@ for path in sorted(glob.glob("plugins/*/skills/*/SKILL.md")):
         problems.append(f"{path}: name {name!r} != directory {directory!r}")
     if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", name):
         problems.append(f"{path}: {name!r} is not lowercase-hyphenated")
-    if len(desc.group(1).strip()) < 80:
+    value = desc.group(1).strip()
+    if value[0] not in "\"'" and (": " in value or " #" in value):
+        problems.append(f"{path}: description holds ': ' or ' #' outside quotes, which is not valid YAML; quote it")
+    if len(value) < 80:
         problems.append(f"{path}: description too thin to trigger reliably")
     names[name].append(path)
 
