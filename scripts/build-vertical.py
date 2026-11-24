@@ -131,6 +131,13 @@ documents run upstream, where the generator that writes them lives.
 """
 
 
+def unquote(value):
+    """A description holding ": " must be quoted to be valid YAML; the text is what is inside."""
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+        return value[1:-1]
+    return value
+
+
 def die(message):
     sys.exit(f"build-vertical: {message}")
 
@@ -454,7 +461,7 @@ def readme(config, departments, counts, banner, name):
 
 def describe(path):
     front = re.match(r"^---\s*\n(.*?)\n---", open(path, encoding="utf-8").read(), re.S)
-    desc = re.search(r"^description:\s*(.*)$", front.group(1), re.M).group(1).strip()
+    desc = unquote(re.search(r"^description:\s*(.*)$", front.group(1), re.M).group(1).strip())
     cut = re.split(r"(?:\.\s+)(?:Also )?[Uu]se (?:this|it)\b", desc)[0].rstrip(" .,—-")
     return cut
 

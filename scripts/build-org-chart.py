@@ -67,6 +67,13 @@ GLYPHS = {
 }
 
 
+def unquote(value):
+    """A description holding ": " must be quoted to be valid YAML; the text is what is inside."""
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+        return value[1:-1]
+    return value
+
+
 def first_sentence(desc, limit=150):
     """The description's opening claim, before the 'Use this to ...' trigger list."""
     cut = re.split(r"(?:\.\s+)(?:Also )?[Uu]se (?:this|it)\b", desc)[0].rstrip(" .,—-")
@@ -117,7 +124,7 @@ def collect():
         for path in sorted(glob.glob(f"plugins/{slug}/skills/*/SKILL.md")):
             text = open(path, encoding="utf-8").read()
             front = re.match(r"^---\s*\n(.*?)\n---", text, re.S).group(1)
-            desc = re.search(r"^description:\s*(.*)$", front, re.M).group(1).strip()
+            desc = unquote(re.search(r"^description:\s*(.*)$", front, re.M).group(1).strip())
             name = os.path.basename(os.path.dirname(path))
             skills.append({
                 "name": name,
